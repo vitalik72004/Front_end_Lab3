@@ -1,0 +1,495 @@
+body{
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    background: linear-gradient(180deg, #FEDAA9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+header{
+    width: auto;
+    height: 60px;
+    background: #141920;
+    flex-shrink: 0;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+main{
+    margin: 10px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: normal;
+    text-decoration: none; /* Відсутність підкреслення у посилань */
+}
+.SearchLi{
+    width: 419px;
+    height: 42px;
+}
+.larger-input {
+  width: 400px;
+  font-size: 16px; /* Зменшено розмір тексту до 16px */
+  padding: 10px 20px;
+  margin: -7px -39px 0px 17px;
+  border-radius: 10px; /* Зменшено скруглені кути */
+}
+.Search {
+    display: flex;
+    position: relative; /* Встановлюємо позицію відносно батька */
+}
+.Search textarea {
+    position: absolute; /* Встановлюємо абсолютну позицію для textarea */
+    z-index: 0; /* Встановлюємо показник для накладання над іншими елементами */
+}
+.Search #search {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 0;
+    padding: 0px;
+}
+.Search .text1 {
+  margin-top: 5px;
+}
+.navbar a.text0 {
+    padding: 5px;
+    background: #FCC57B;
+    border: 3px solid #FCC57B; 
+    border-radius: 10px;
+}
+.navbar a.text2 { 
+    width: 40px;
+    height: 166px;
+    padding: 5px;
+    background: rgba(201, 204, 204, 1);
+    border: 3px solid rgba(201, 204, 204, 1); 
+    border-radius: 10px;
+}
+.navbar img{
+    margin-top: -10px;
+}
+.navbar ul{
+    list-style: none; /* Забираємо маркери списку */
+    margin: 0;
+    margin-top: 15px;
+    display: flex;
+}
+.navbar ul li:first-child {
+    margin-left: 20px; /* Видаляємо зовнішній відступ для останнього елементу */
+  }
+.navbar ul li{
+    margin-right: 130px; /* Відступи між пунктами меню */
+}
+.navbar a#login:hover {
+  background: rgba(201, 204, 204, 1);
+  border: 3px solid rgba(201, 204, 204, 1); /* Колір фону при наведенні */
+}
+a {
+    color: #000;
+    font-style: normal;
+}
+h2 {
+    display: inline-block;
+    border: 3px solid #FCC57B; 
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FCC57B;
+}
+.box {
+    width: auto;
+    height: 900px;
+    display: flex;
+    justify-content: center; /* Це вирівнює контейнер по центру по горизонталі */
+    align-items: center;
+}
+.box .group {
+    width: 1363px;
+    height: 799px;
+    top: 0;
+    left: 0;
+}
+.box .overlap {
+    position: relative;
+    height: 799px;
+}
+.box .div {
+    position: absolute;
+    width: 787px;
+    height: 1363px;
+    top: -288px;
+    left: 288px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+.box .item {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 487px;
+    left: 40px;
+  }
+  
+  .box .overlap-group {
+    position: relative;
+    width: 351px;
+    height: 54px;
+  }
+  
+  .box .mini-box {
+    position: absolute;
+    width: 54px;
+    height: 351px;
+    top: -149px;
+    left: 149px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .box .text-wrapper {
+    width: 351px;
+    height: 54px;
+    left: 0;
+    font-size: 30px;
+    position: absolute;
+    top: 3;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .overlap-wrapper {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 571px;
+    left: 40px;
+  }
+  
+  .box .overlap-group-wrapper {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 655px;
+    left: 40px;
+  }
+  
+  .box .div-wrapper {
+    position: absolute;
+    width: 356px;
+    height: 54px;
+    top: 403px;
+    left: 40px;
+  }
+  
+  .box .overlap-2 {
+    position: relative;
+    width: 354px;
+    height: 54px;
+  }
+  
+  .box .text-wrapper-2 {
+    width: 351px;
+    height: 54px;
+    left: 3px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .item-2 {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 319px;
+    left: 40px;
+  }
+  
+  .box .item-3 {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 235px;
+    left: 43px;
+  }
+  
+  .box .item-4 {
+    position: absolute;
+    width: 353px;
+    height: 54px;
+    top: 151px;
+    left: 43px;
+  }
+  
+  .box .mini-box-2 {
+    width: 54px;
+    height: 351px;
+    top: -149px;
+    left: 149px;
+    background-color: #fee3be;
+    transform: rotate(90deg);
+    position: absolute;
+    border-radius: 10px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .box .text-wrapper-3 {
+    width: 351px;
+    height: 54px;
+    top: 0;
+    left: 0;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 30px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .group-2 {
+    position: absolute;
+    width: 842px;
+    height: 760px;
+    top: 39px;
+    left: 485px;
+  }
+  
+  .box .overlap-3 {
+    position: relative;
+    width: 820px;
+    height: 760px;
+    border-radius: 10px;
+  }
+  
+  .box .mini-box-3 {
+    width: 820px;
+    height: 760px;
+    top: 0;
+    left: 0;
+    border: 2px solid;
+    border-color: transparent;
+    transform: rotate(-180deg);
+    border-image: linear-gradient(to bottom, rgba(235.88, 235.88, 235.88, 0), rgb(235.88, 235.88, 235.88) 79.17%) 1;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    border-radius: 10px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .box .item-5 {
+    position: absolute;
+    width: 185px;
+    height: 50px;
+    top: 618px;
+    left: 542px;
+  }
+  
+  .box .overlap-group-2 {
+    position: relative;
+    width: 183px;
+    height: 50px;
+  }
+  
+  .box .mini-box-4 {
+    width: 50px;
+    height: 183px;
+    top: -67px;
+    left: 67px;
+    background-color: #fee3be;
+    transform: rotate(90deg);
+    position: absolute;
+    border-radius: 10px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .box .text-wrapper-4 {
+    width: 183px;
+    height: 50px;
+    left: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-5 {
+    width: 412px;
+    height: 54px;
+    top: 45px;
+    left: 48px;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-6 {
+    height: 42px;
+    top: 186px;
+    left: 150px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-7 {
+    height: 42px;
+    top: 186px;
+    left: 48px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-8 {
+    height: 42px;
+    top: 270px;
+    left: 254px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-9 {
+    height: 42px;
+    top: 270px;
+    left: 47px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-10 {
+    height: 42px;
+    top: 354px;
+    left: 285px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-11 {
+    height: 42px;
+    top: 354px;
+    left: 47px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-12 {
+    position: absolute;
+    height: 42px;
+    top: 433px;
+    left: 387px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .box .text-wrapper-13 {
+    height: 42px;
+    top: 433px;
+    left: 47px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-14 {
+    height: 42px;
+    top: 517px;
+    left: 182px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-15 {
+    height: 42px;
+    top: 517px;
+    left: 47px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    font-size: 35px;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

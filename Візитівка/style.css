@@ -1,0 +1,85 @@
+body{
+    
+    padding: 20px; /* Додатковий відступ від країв сторінки */
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    color: #000;
+    font-family: Blinker;
+    font-style: normal;
+    font-weight: 700;
+}
+h2 {
+    display: inline-block;
+    border: 3px solid #FCC57B; 
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FCC57B;
+}
+
+h2 + img {
+    padding: 10px;
+    transform: rotate(5deg)
+
+}
+li > b {
+    color:red;
+    font-family: ari;
+}
+
+nav > ul > li::before { 
+    content: '⏹';
+
+}
+nav > ul {
+    list-style: none;
+    text-align:left;
+    padding: 0;
+}
+
+#table{
+    border-collapse: collapse; 
+    box-shadow: 8px 4px 8px #fcc47b7a ; /* Тінь таблиці */
+    border: 2px solid #FCC57B; /* Рамка навколо таблиці */
+    transform: rotate(-1deg); /* 2D трансформація: обертання на 1 градус */
+}
+#table caption{
+    text-align: center; /* Вирівнювання тексту заголовку таблиці по центру */
+    font-weight: bold; /* Жирний шрифт для заголовку */
+    padding: 5px;
+    background-color:bisque;
+}
+#table th, td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+font {
+    float: left;
+    width: 50%;
+}
+form > label {
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border: 3px solid #FCC57B; 
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FCC57B;
+}
+
+
+@keyframes swing {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(2deg); } 
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-2deg); } 
+    100% { transform: rotate(0deg); } 
+  }
+  
+  .swing-animation {
+    animation: swing 1s linear infinite; 
+    transform-origin: top center; /* Центр вісі обертання - верхня частина елемента */
+  }

@@ -1,0 +1,397 @@
+body{
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    background: linear-gradient(180deg, #FEDAA9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+header{
+    width: auto;
+    height: 60px;
+    background: #141920;
+    flex-shrink: 0;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+main{
+    margin: 10px;
+}
+.navbar a#login:hover {
+    background: rgba(201, 204, 204, 1);
+    border: 3px solid rgba(201, 204, 204, 1); /* Колір фону при наведенні */
+  }
+.navbar{
+    position: relative;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: normal;
+    text-decoration: none; /* Відсутність підкреслення у посилань */
+}
+.SearchLi{
+    width: 419px;
+    height: 42px;
+}
+.Search {
+    display: flex;
+    position: relative; /* Встановлюємо позицію відносно батька */
+}
+.larger-input {
+    width: 400px;
+    font-size: 16px; /* Зменшено розмір тексту до 16px */
+    padding: 10px 20px;
+    margin: -7px -39px 0px 17px;
+    border-radius: 10px; /* Зменшено скруглені кути */
+}
+.Search textarea {
+    position: absolute; /* Встановлюємо абсолютну позицію для textarea */
+    z-index: 0; /* Встановлюємо показник для накладання над іншими елементами */
+}
+.Search #search {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 0;
+    padding: 0px;
+}
+.Search .text1 {
+    margin-top: 5px;
+}
+.navbar a.text0 {
+    padding: 5px;
+    background: #FCC57B;
+    border: 3px solid #FCC57B; 
+    border-radius: 10px;
+}
+.navbar a.text2 { 
+    width: 40px;
+    height: 166px;
+    padding: 5px;
+    background: rgba(201, 204, 204, 1);
+    border: 3px solid rgba(201, 204, 204, 1); 
+    border-radius: 10px;
+}
+.navbar img{
+    margin-top: -10px;
+}
+.navbar ul{
+    list-style: none; /* Забираємо маркери списку */
+    margin: 0;
+    margin-top: 15px;
+    display: flex;
+}
+.navbar ul li:first-child {
+    margin-left: 20px; /* Видаляємо зовнішній відступ для останнього елементу */
+  }
+.navbar ul li{
+    margin-right: 130px; /* Відступи між пунктами меню */
+}
+a {
+    color: #000;
+    font-style: normal;
+
+}
+h2 {
+    display: inline-block;
+    border: 3px solid #FCC57B; 
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #FCC57B;
+}
+.Ad {
+    height: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Це вирівнює контейнер по центру по горизонталі */
+    align-items: center;
+    text-align: center; 
+}
+.text-wrapper{
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 100px;
+    width: 827px;
+    height: 120px;
+    line-height: normal;
+    white-space: nowrap;
+}
+.book{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.recommended {
+    
+    width: 419px;
+    height: 500px;
+    top: 430px;
+    left: 128px;
+}
+.overlap-5 {
+    position: relative;
+    width: 417px;
+    height: 500px;
+}
+.box {
+    position: absolute;
+    width: 500px;
+    height: 417px;
+    top: 41px;
+    left: -41px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+.item {
+    position: absolute;
+    width: 154px;
+    height: 178px;
+    top: 91px;
+    left: 46px;
+}
+.overlap-6 {
+    position: relative;
+    width: 150px;
+    height: 178px;
+}
+.mini-box {
+    position: absolute;
+    width: 178px;
+    height: 150px;
+    top: 14px;
+    left: -14px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+.text-wrapper-5 {
+    position: absolute;
+    width: 50px;
+    top: 140px;
+    left: 57px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    color: #717171;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper-6 {
+    width: 130px;
+    top: 109px;
+    left: 22px;
+    font-family: "Blinker-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #717171;
+    font-size: 15px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.foto {
+    position: absolute;
+    width: 123px;
+    height: 89px;
+    top: 12px;
+    left: 14px;
+}
+.overlap-group-2 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto.svg);
+    background-size: 100% 100%;
+}
+.text-wrapper-7 {
+    width: 89px;
+    top: 17px;
+    left: 15px;
+    font-family: "Blinker-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.item-2 {
+    width: 154px;
+    top: 293px;
+    left: 222px;
+    position: absolute;
+    height: 178px;
+}
+.overlap-group-3 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-10.svg);
+    background-size: 100% 100%;
+}
+.item-3 {
+    width: 154px;
+    top: 91px;
+    left: 222px;
+    position: absolute;
+    height: 178px;
+}
+.overlap-group-4 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-size: 100% 100%;
+}
+.item-4 {
+    width: 150px;
+    top: 293px;
+    left: 46px;
+    position: absolute;
+    height: 178px;
+}
+.text-wrapper-8 {
+    top: 26px;
+    left: 25px;
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.discounts {
+    width: 419px;
+    height: 500px;
+    top: 430px;
+    left: 655px;
+}
+.overlap-group-5 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-3.svg);
+    background-size: 100% 100%;
+}
+.overlap-group-6 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-7.svg);
+    background-size: 100% 100%;
+}
+.overlap-group-7 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-6.svg);
+    background-size: 100% 100%;
+}
+.item-5 {
+    width: 154px;
+    top: 293px;
+    left: 46px;
+    position: absolute;
+    height: 178px;
+}
+.overlap-group-8 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-2.svg);
+    background-size: 100% 100%;
+}
+.text-wrapper-9 {
+    top: 29px;
+    left: 90px;
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.popular {
+    width: 419px;
+    height: 500px;
+    top: 430px;
+    left: 1182px;
+}
+.overlap-group-9 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/image.svg);
+    background-size: 100% 100%;
+}
+.overlap-group-10 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-4.svg);
+    background-size: 100% 100%;
+}
+.overlap-group-11 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-8.svg);
+    background-size: 100% 100%;
+}
+.overlap-group-12 {
+    position: relative;
+    width: 121px;
+    height: 89px;
+    background-image: url(./img/foto-9.svg);
+    background-size: 100% 100%;
+}
+.text-wrapper-10 {
+    top: 26px;
+    left: 76px;
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.text-wrapper-11 {
+    top: 154px;
+    left: 463px;
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 100px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+@keyframes swing {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(2deg); } 
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-2deg); } 
+    100% { transform: rotate(0deg); } 
+  }
+  
+  .swing-animation {
+    animation: swing 1s linear infinite; 
+    transform-origin: top center; /* Центр вісі обертання - верхня частина елемента */
+  }

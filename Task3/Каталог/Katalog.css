@@ -1,0 +1,123 @@
+body{
+    font-family: "Blinker-Bold", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    background: white;}
+header{
+    width: auto;
+    height: 60px;
+    background: #141920;
+    flex-shrink: 0;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+.main_page{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+}
+.navbar a#login:hover {
+    background: rgba(201, 204, 204, 1);
+    border: 3px solid rgba(201, 204, 204, 1); /* Колір фону при наведенні */
+}
+.larger-input {
+    width: 400px;
+    font-size: 16px; /* Зменшено розмір тексту до 16px */
+    padding: 10px 20px;
+    margin: -7px -39px 0px 17px;
+    border-radius: 10px; /* Зменшено скруглені кути */
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-style: normal;
+    text-decoration: none; /* Відсутність підкреслення у посилань */
+}
+.SearchLi{
+    width: 419px;
+    height: 42px;
+}
+.Search {
+    display: flex;
+    position: relative; /* Встановлюємо позицію відносно батька */
+}
+.Search textarea {
+    position: absolute; /* Встановлюємо абсолютну позицію для textarea */
+    z-index: 0; /* Встановлюємо показник для накладання над іншими елементами */
+}
+.Search #search {
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 0;
+    padding: 0px;
+}
+.Search .text1 {
+    margin-top: 5px;
+}
+.navbar a.text0 {
+    padding: 5px;
+    background: #FCC57B;
+    border: 3px solid #FCC57B; 
+    border-radius: 10px;
+}
+.navbar a.text2 { 
+    width: 40px;
+    height: 166px;
+    padding: 5px;
+    background: rgba(201, 204, 204, 1);
+    border: 3px solid rgba(201, 204, 204, 1); 
+    border-radius: 10px;
+}
+.navbar img{
+    margin-top: -10px;
+}
+.navbar ul{
+    list-style: none; /* Забираємо маркери списку */
+    margin: 0;
+    margin-top: 15px;
+    display: flex;
+}
+.navbar ul li:first-child {
+    margin-left: 20px; /* Видаляємо зовнішній відступ для останнього елементу */
+  }
+.navbar ul li{
+    margin-right: 130px; /* Відступи між пунктами меню */
+}
+a {
+    color: #000;
+    font-style: normal;
+
+}
+.head_box .kategory_text h1{
+    font-size: 40px;
+}
+.katalog h2{
+    display: inline-block;
+    padding-bottom: 3px;
+}
+.katalog h3{
+    font-weight: 100;
+}
+.katalog h4, h5{
+    font-size: 20px;
+}
+.katalog table, tr, td{
+    display: flex;
+
+}
+.katalog td{
+    flex-direction: column;
+    margin-right: 50px;
+}
+.basket{
+    margin: 50px;
+}
