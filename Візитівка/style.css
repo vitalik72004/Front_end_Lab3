@@ -1,5 +1,4 @@
 body{
-    
     padding: 20px; /* Додатковий відступ від країв сторінки */
     font-size: 14pt;
     font-family: 'Times New Roman', Times, serif;
@@ -79,7 +78,15 @@ form > label {
     100% { transform: rotate(0deg); } 
   }
   
-  .swing-animation {
+.swing-animation {
     animation: swing 1s linear infinite; 
     transform-origin: top center; /* Центр вісі обертання - верхня частина елемента */
   }
+.leaf {
+    width: 31px;
+    height: 20px;
+    position: absolute;
+    background-image: url('/Users/vitaliklevcenko/Desktop/Універ/Розробник фронтенд програмних систем/Labs/Lab4/Візитівка/leaf.png'); /* Додайте URL до зображення листочка */
+    background-size: cover;
+    transition: transform 5s linear, opacity 5s linear;
+}

@@ -178,7 +178,7 @@ h2 {
     position: absolute;
     width: 50px;
     top: 140px;
-    left: 57px;
+    left: 49px;
     font-family: "Blinker-Light", Helvetica;
     font-weight: 300;
     color: #717171;
@@ -189,7 +189,7 @@ h2 {
 .text-wrapper-6 {
     width: 130px;
     top: 109px;
-    left: 22px;
+    left: 13px;
     font-family: "Blinker-SemiBold", Helvetica;
     font-weight: 600;
     color: #717171;
@@ -209,7 +209,7 @@ h2 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto.svg);
+    /*background-image: url(./img/foto.svg);*/
     background-size: 100% 100%;
 }
 .text-wrapper-7 {
@@ -236,7 +236,7 @@ h2 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-10.svg);
+    /*background-image: url(./img/foto-10.svg);*/
     background-size: 100% 100%;
 }
 .item-3 {
@@ -281,21 +281,21 @@ h2 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-3.svg);
+    /*background-image: url(./img/foto-3.svg);*/
     background-size: 100% 100%;
 }
 .overlap-group-6 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-7.svg);
+    /*background-image: url(./img/foto-7.svg);*/
     background-size: 100% 100%;
 }
 .overlap-group-7 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-6.svg);
+    /*background-image: url(./img/foto-6.svg);*/
     background-size: 100% 100%;
 }
 .item-5 {
@@ -309,7 +309,7 @@ h2 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-2.svg);
+    /*background-image: url(./img/foto-2.svg);*/
     background-size: 100% 100%;
 }
 .text-wrapper-9 {
@@ -334,28 +334,28 @@ h2 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/image.svg);
+    /*background-image: url(./img/image.svg);*/
     background-size: 100% 100%;
 }
 .overlap-group-10 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-4.svg);
+   /*background-image: url(./img/foto-4.svg);*/
     background-size: 100% 100%;
 }
 .overlap-group-11 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-8.svg);
+    /*background-image: url(./img/foto-8.svg);*/
     background-size: 100% 100%;
 }
 .overlap-group-12 {
     position: relative;
     width: 121px;
     height: 89px;
-    background-image: url(./img/foto-9.svg);
+    /*background-image: url(./img/foto-9.svg);*/
     background-size: 100% 100%;
 }
 .text-wrapper-10 {
@@ -382,16 +382,6 @@ h2 {
     letter-spacing: 0;
     line-height: normal;
 }
-
-@keyframes swing {
-    0% { transform: rotate(0); }
-    25% { transform: rotate(2deg); } 
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-2deg); } 
-    100% { transform: rotate(0deg); } 
-  }
-  
-  .swing-animation {
-    animation: swing 1s linear infinite; 
-    transform-origin: top center; /* Центр вісі обертання - верхня частина елемента */
-  }
+.item, .item-2, .item-3, .item-4, .item-5{
+    transition: transform 0.3s ease;
+}

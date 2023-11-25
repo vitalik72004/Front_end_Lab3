@@ -121,3 +121,9 @@ a {
 .basket{
     margin: 50px;
 }
+.tr{
+    transition: transform 0.5s ease;
+}
+.tr:hover{
+    transform: scale(1.1);
+}
